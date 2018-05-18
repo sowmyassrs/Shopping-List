@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+	display: block;
+	background-image: url(backgroundimage.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+hr{
+	border: 1.5px solid rgb(133, 87, 35);;
+}
+.container{
+	margin: 0px 0.5em;
+}
+
+#parafirst{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.5em;
+}
+#parasecond{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1em;
+	font-style: italic;	
+}
+#iteminput, #additemsbutton{
+	margin: 25px 0px;
+}
+.deleteItem{
+	float: right;
+	cursor: pointer;
+}
+
+.done{
+	text-decoration: line-through;
+	color: red;
+}
+.done:hover{
+	text-decoration: line-through;
+}
