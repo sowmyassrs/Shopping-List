@@ -38,3 +38,9 @@ hr{
 .done:hover{
 	text-decoration: line-through;
 }
+#additemsbutton:hover{
+	color: white;
+}
+#additemsbutton:focus{
+	color: white;
+}
